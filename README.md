@@ -15,6 +15,7 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 python -m stata_kernel.install
+jupyter labextension install jupyterlab-stata-highlight
 ```
 
 4. Install [Stata for Linux](https://download.stata.com/download/linux64_15/). Follow their instruction on your terminal. You need to input serial number, code, and authorization
@@ -58,7 +59,7 @@ sudo apt-get install libtool autoconf build-essential pkg-config automake tcsh
 
 <img width="802" alt="image" src="https://user-images.githubusercontent.com/39021609/130316290-dc8fa744-19a1-48dc-bc7d-08b646f28428.png">
 
-10. You're now able to run Stata kernel on Jupyter Notebook using GitHub Codespaces by typing `jupyter notebook` on terminal. Just click open in browser when you're promped to. Also, you need to input the token. See the picture below where I censored the par, that's the token that you're going to use
+10. You're now able to run Stata kernel on Jupyter Notebook using GitHub Codespaces by typing `jupyter notebook` on terminal. Just click open in browser when you're prompted to. Also, you need to input the token. See the censored the part below, that's the token that you're going to use
 
 <img width="1160" alt="image" src="https://user-images.githubusercontent.com/39021609/130316370-c1561bff-6eb4-425e-98ff-b71a27af8aaa.png">
 
@@ -70,5 +71,5 @@ sudo apt-get install libtool autoconf build-essential pkg-config automake tcsh
 
 <img width="587" alt="image" src="https://user-images.githubusercontent.com/39021609/130316450-f17ef11e-1fb5-4acc-812d-909f74215293.png">
 
-# Misc
+# Miscellaneous
 - Let me know if you have any questions by submitting issues [here](https://github.com/ledwindra/stata-codespaces/issues)
