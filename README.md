@@ -22,6 +22,18 @@ jupyter labextension install jupyterlab-stata-highlight
   - In `tar -zxf /home/you/Downloads/Stata15Linux64.tar.gz` part, change `/home/you/Downloads/` to your directory
   - In my case, it's `/workspaces/stata-codespaces/`
 
+```bash
+% sudo -s
+cd /tmp/
+mkdir statafiles
+cd statafiles
+tar -zxf /home/you/Downloads/Stata15Linux64.tar.gz
+cd /usr/local
+mkdir stata15
+cd stata15
+/tmp/statafiles/install
+```
+
 5. After installing Stata, install this Ubuntu package because otherwise it will cause an error when invoking your Stata. Just type yes when you're prompted to
 
 ```bash
